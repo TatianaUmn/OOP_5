@@ -1,5 +1,5 @@
 public class Complex extends Rational{
-    double real; 
+    private double real;; 
     double image; 
 
     public Complex(double real, double image) {

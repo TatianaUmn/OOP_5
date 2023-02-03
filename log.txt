@@ -1,0 +1,8 @@
+џэт. 29, 2023 12:11:27 AM Presenter resultRational
+INFO: 
+782,00
+
+џэт. 29, 2023 12:22:18 AM Presenter resultComplex
+INFO: 
+101,00+100,00i
+
