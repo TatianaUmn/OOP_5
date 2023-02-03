@@ -19,26 +19,26 @@ class DivideModel extends  CalcModel {
     @Override
 
     public void setA(Complex c) {
-        super.a.real = c.getReal();
-        super.a.image = c.getImage();
+        a.setReal(c.getReal());
+        a.setImage(c.getImage());
     }
 
     @Override
 
     public void setRatioA(Rational r) {
-        super.c.real = r.getReal();
+        c.setReal(r.getReal());
     }
 
     @Override
 
     public void setRatioB(Rational r) {
-        super.d.real = r.getReal();
+        d.setReal(r.getReal());
     }
 
     @Override
 
     public void setB(Complex c) {
-        super.b.real = c.getReal();
-        super.b.image = c.getImage();
+        b.setReal(c.getReal());
+        b.setImage(c.getImage());
     }
 }
